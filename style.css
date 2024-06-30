@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ff68a2de; 
+    font-family: 'Times New Roman', Times, serif
+    min-height: 100vh;
+}
+
+header{
+    font-size: 1.5rem;
+    background: #fffdfeea;
+    text-align: center;
+
+    
+}
+
+
+header, main{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+main button{
+    color: #3a3737; /*Esse é a cor do texto do botão*/
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+main button:hover{
+    color: rgb(41, 40, 40); /* Esse é a cor do botão*/
+    background: #d6aff0; /* Essa é a cor que fica ao passar o mouse.*/
+}
+
+
+main input, main button{
+    margin: 5px;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    border: none;
+    background: #fff9fda1;
+    
+}
+
+
+#btnFeito{
+    background: #fcfffc;
+}
+
+#btnRemover{
+    background: #fcf1f8;
+}
+
+.completa{
+    text-decoration: line-through;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+}
+
+#lista, #divLista{
+    margin-top: 5%;
+    
+}
+
+#divLista{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+
+#texto{
+    display: flex;
+    flex-direction: column;
+}
